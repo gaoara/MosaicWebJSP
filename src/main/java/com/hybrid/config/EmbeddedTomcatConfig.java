@@ -31,7 +31,7 @@ public class EmbeddedTomcatConfig implements EmbeddedServletContainerCustomizer 
 				
 				error404Page.setErrorCode(404);
 				error404Page.setLocation("/WEB-INF/error/404.jsp");
-				context.addErrorPage(error404Page);
+//				context.addErrorPage(error404Page);
 
 				
 				ErrorPage errorArithmaticPage = new ErrorPage();
