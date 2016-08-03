@@ -39,11 +39,7 @@ public class EmbeddedTomcatConfig implements EmbeddedServletContainerCustomizer 
 				errorArithmaticPage.setLocation("/WEB-INF/error/arithmatic.jsp");
 				context.addErrorPage(errorArithmaticPage);
 				
-				
-			
-				
-				
-				
+
 				
 			}
 		});
