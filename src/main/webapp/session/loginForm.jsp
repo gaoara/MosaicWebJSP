@@ -8,17 +8,20 @@
 <title>loginForm.jsp</title>
 </head>
 <body>
-<h1>Login</h1>
 
-<form action="loginProcess.jsp" method="post">
-	<label>ID : </label>
-	<input type="text" name="id"/><br>
-	<label>PW :</label>
-	<input type="text" name="pw"/><br>
+<form action="/session/loginProcess.jsp" method="post">
+	<div>
+		<label for="id">ID : </label>
+		<input id="id" type="text" name="id" />	
+	</div>
+	<div>
+		<label for="pw">PW : </label>
+		<input id="pw" type="password" name="pw"/>
+	</div>
 	
 	<sec:csrfInput/>
-	<input type="submit" value="Login"/>
-	
+	<input type="submit" value="login" />
 </form>
+
 </body>
 </html>
